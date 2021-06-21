@@ -5,6 +5,14 @@
 		},
 		{
 			"path": "lab3"
+		},
+		{
+			"name": "learning-python",
+			"path": "..\\python\\learning-python"
+		},
+		{
+			"name": "learning-c",
+			"path": "learning-c"
 		}
 	],
 	"settings": {}
