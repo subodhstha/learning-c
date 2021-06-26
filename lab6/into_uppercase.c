@@ -4,8 +4,8 @@
 int main()
 {
     char a[100];
-    printd("Enter the String");
+    printf("Enter the String ");
     gets(a);
-    strupr(a);
-    printf("%s",a);
+    printf("In uppercase ");
+    puts(strupr(a));
 }
