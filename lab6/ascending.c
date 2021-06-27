@@ -14,13 +14,16 @@ int main()
     {
         for(int j = i+1; j < n; j++)
         {
-            temp = a[i];
-            a[i] = a[j];
-            a[j] = temp;
+        if(a[i] > a[j])
+            {
+                temp = a[i];
+                a[i] = a[j];
+                a[j] = temp;
+            }
         }
     }
-    printf("The element of array in ascending ordr is\n");
-    for(int i = 0; i < n; i++)
+    printf("The element of array in ascending order is\n");
+    for (int i = 0; i < n; i++)
     {
         printf("%d\n",a[i]);
     }

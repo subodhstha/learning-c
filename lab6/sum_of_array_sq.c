@@ -3,7 +3,7 @@
 int main()
 {
     int a[10], sum = 0, n , sq;
-    printf("Enter the size od the array ");
+    printf("Enter the size of the array ");
     scanf("%d",&n);
     printf("Enter the elements of array \n");
     for (int i = 0; i < n; i++)
