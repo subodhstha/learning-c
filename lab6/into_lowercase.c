@@ -6,7 +6,7 @@ int main()
     char a[100];
     printf("Enter tha string in Capital letter ");
     gets(a);
-    printf("In upper case ");
+    printf("In lowercase ");
     puts(strlwr(a));
 
 }
