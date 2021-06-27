@@ -1,7 +1,8 @@
 /*Write a program to find the  sum and average of the array elements.*/
 #include<stdio.h>
 int main(){
-    int a[101], n , sum=0, ave;
+    int a[101], n , sum=0;
+    float ave;
     printf("Enter the size of array ");
     scanf("%d",&n);
     printf("Enter tha elements of array\n");
@@ -10,7 +11,7 @@ int main(){
         scanf("%d",&a[i]);
         sum = sum + a[i];
     }
-    ave = sum/n;
+    ave = (float)sum / n;
     printf("The sum of elements of array is %d\n",sum);
-    printf("The average of element of arrey is %d",ave);
+    printf("The average of element of arrey is %f",ave);
 }
