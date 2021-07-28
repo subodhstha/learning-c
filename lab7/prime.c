@@ -7,7 +7,7 @@ int main()
     printf("Enter the number ");
     scanf("%d",&n);
     p = prime(n);
-    printf("\n\t-----index-----\n1 = Prime Pumber \t 0 = Not Prime Number \n\t -----answer-----\n Answer = %d",p);
+    printf("\t-----index-----\n1 = Prime number \t 0 = Not Prime Number \n\t -----answer-----\n Answer = %d",p);
 }
 int prime(int n)
 {

@@ -7,7 +7,7 @@ int main()
     float res;
     printf("Enter the base ");
     scanf("%d",&b);
-    printf("Entr the power ");
+    printf("Enter the power ");
     scanf("%d",&p);
     res = cal(b,p);
     printf("%d^%d = %.2f",b,p,res);

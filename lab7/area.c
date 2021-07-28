@@ -4,7 +4,7 @@ int calculateArea(int a, int b);
 int main()
 {
     int a, b, area;
-    printf("Enter the length and breadth of a reactangle ");
+    printf("Enter the length and breath of a reactangle ");
     scanf("%d %d",&a, &b);
     area = calculateArea(a,b);
     printf("The area of reactangle is %d",area);
