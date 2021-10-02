@@ -7,5 +7,5 @@ int main()
     printf("Value of x =%d and its address=%u\n",x,&x);
     printf("Value of x =%d and its address=%u\n",*p,p);
     printf("Value of x =%d and its address=%u\n",*(&x),&x);
-    printf("Address of p =%u and value of p=%u\n",&p,p);
+    printf("Address of p =%u and value of p=%u\n",&p,*p);
 }
